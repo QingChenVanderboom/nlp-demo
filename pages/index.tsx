@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from "@vercel/analytics/next"
 import Head from 'next/head'
 
 interface Message {
@@ -125,6 +126,8 @@ export default function Home() {
           </div>
         </div>
       </main>
+
+      <Analytics />
 
       <style jsx>{`
         .container {
