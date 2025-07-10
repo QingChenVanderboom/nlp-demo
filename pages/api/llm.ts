@@ -40,7 +40,7 @@ export default async function handler(
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'meta-llama/Llama-2-7b-chat-hf',
+        model: 'arcee-ai/AFM-4.5B-Preview',
         messages: [
           {
             role: 'system',
